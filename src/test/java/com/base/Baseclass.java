@@ -351,18 +351,13 @@ public void Dismiss() {
 	    		cell.setCellValue(data);
 	    		  FileOutputStream outputStream=new FileOutputStream(file);
 	    	        workbook.write(outputStream);
-	    			
-		
-		
-		
-		
-		
 		
 		
 		
 	}
-
-	
+     public void send(WebElement element,String data) {
+    	 element.sendKeys(data);
+     }
 	
 	
 }
